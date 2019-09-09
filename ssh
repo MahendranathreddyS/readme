@@ -1,0 +1,15 @@
+echo "enter a character"
+read var
+case $var in
+[a-z])
+     echo "you entered lower case variable"
+     ;;
+[A-Z])
+     echo "you entered upper case variable"
+     ;;
+[0-9])
+    echo "you entered digit"
+    ;;
+?) echo "you entered a special character";;
+*) echo "inavlid input";;
+esac
